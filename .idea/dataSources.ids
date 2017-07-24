@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="company@localhost" uuid="6def1357-9b1a-42b5-94e4-acafa1970a05">
+    <database-info product="PostgreSQL" version="9.5.7" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <schema name="public" catalog="company"/>
+    <table name="user_ids" schema="public" catalog="company" type="SEQUENCE"/>
+    <table name="users" schema="public" catalog="company" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndXNlcl9pZHMnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="depcode" sqlType="varchar" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="depjob" sqlType="varchar" precision="100" scale="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="users_pkey" columns="id"/>
+      <index name="users_depcode_depjob_key" unique="true" columns="depcode,depjob"/>
+    </table>
+  </data-source>
+</component>
