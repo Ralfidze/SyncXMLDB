@@ -11,6 +11,7 @@ import java.util.*;
 public class testMain {
     private static final Logger log = Logger.getLogger(testMain.class);
     public static void main(String[] args) throws InterruptedException, IOException {
+
         log.info("Выполнен запуск программы!");
         UsersQueryDB usersQueryDB = new UsersQueryDB();
         //System.out.println("Добро пожаловать в модуль синхронизации!\n Введите код действия: \n 1-выгрузка данных из БД в XML \n 2-загрузка данных из файла XML в БД");
