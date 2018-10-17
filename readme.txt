@@ -1,9 +1,10 @@
-Для запуска модуля синхронизации необходимо:
-1) Разархиваровать архив в желаемую папку
-2) перейти из командной строки в папку \target
-3) набрать в командной строке :
-	startSync.bat upload %имя_файла в формате XML% /* для выгрузки данных из БД в XML
-	или
-	startSync.bat sync /* для синхронизации данных с БД, в этом случае появится окно для выбора нужного файла в формате XML
+# XML file and DB table synchronization
+Steps to start module: 
+1) unzip archive into yourl folder
+2) move to \target folder
+3) run in cmd:
+	startSync.bat upload %fileNameInXMLformat% /* for export data from DB to XML
+	or
+	startSync.bat sync /* for synchronization data with DB, you will need to select file in open file dialog.
 	
 
