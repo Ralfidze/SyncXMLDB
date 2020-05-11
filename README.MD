@@ -1,5 +1,7 @@
 # XML file and DB table synchronization
-Steps to start module: 
+This app helps to sync data between XML data and Database table
+
+## Steps to start module: 
 1) unzip archive into yourl folder
 2) move to \target folder
 3) run in cmd:
